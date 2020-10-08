@@ -104,8 +104,9 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: .85em;
   height: 100%;
+  background-color: #f16059
 }
 
 .wrapper {
@@ -123,13 +124,20 @@ body {
   background-color: #f16059;
   height: 300px;
   display: flex;
-  width: 30%;
+  width: 33.33%;
   justify-content: center;
   align-items: center;
 }
 
+.div-2 {
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
 
-
+p {
+  text-align: left;
+  padding: 10%;
+}
 
 /* ==========================================================================
    Helper classes
